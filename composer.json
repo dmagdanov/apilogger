@@ -1,0 +1,44 @@
+{
+  "name": "nsu/apilogger",
+  "description": "Api logger for nsu.",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "yii 2", "logger"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Dmitry M",
+      "email": "d@nsu.ru",
+      "homepage": "https://nsu.ru"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/dmagdanov/apilogger",
+    "source": "https://github.com/dmagdanov/apilogger"
+  },
+  "require": {
+    "php": ">=8.0",
+    "yiisoft/yii2": "~2.0.14",
+    "yiisoft/yii2-httpclient": "*"
+  },
+  "require-dev": {
+    "php": ">=8.0",
+    "yiisoft/yii2": "~2.0.14",
+    "yiisoft/yii2-httpclient": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "nsu\\apilogger\\": "src/"
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}

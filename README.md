@@ -1,2 +1,2 @@
-# apilogger
-Api logger
+# api_logger_yii2
+api logger extension
